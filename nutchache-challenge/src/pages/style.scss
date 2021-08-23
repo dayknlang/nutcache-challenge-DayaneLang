@@ -1,0 +1,24 @@
+@import "./settings.colors.scss";
+
+.container{
+    padding: 4rem 0;
+    .mainContent{
+        text-align: center;
+        .button-employee{
+            padding: 3rem 0;
+        }
+    }
+    .employeeSection{
+        padding-top: 2rem;
+        .employees-list{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .noFound{
+            padding: 6rem 0;
+            text-align: center;
+        }
+    }
+}
