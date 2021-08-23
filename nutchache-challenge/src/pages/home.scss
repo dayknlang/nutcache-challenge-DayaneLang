@@ -4,13 +4,14 @@
     padding: 4rem 0;
     .mainContent{
         text-align: center;
-        .button-employee{
+		color: rgb(110, 30, 30);
+        .buttonEmployee{
             padding: 3rem 0;
         }
     }
     .employeeSection{
         padding-top: 2rem;
-        .employees-list{
+        .employeesList{
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
