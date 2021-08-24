@@ -53,7 +53,7 @@ The application is running in production at this link: https://nutcache-challeng
 ## Link Surge
 To preview the project, go to: https://nutcache-challenge-dayane-lang.surge.sh .
 
-<h5 color= #EBC79E> Developed by Dayane Lang </h5> 💮
+<h5 color= #EBC79E> Developed by Dayane Lang💮 </h5> 
 
 
 
