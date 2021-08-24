@@ -1,21 +1,21 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from '../pages/home';
 
 
-const Routes = () => {
+const RoutesEmployee = () => {
     return(
         <BrowserRouter>
-            <Switch>
+            <Routes>
                 <Route exact path="/"> 
                     <Home />
                 </Route>
-            </Switch>            
+            </Routes>            
         </BrowserRouter>
     );
 }
 
-export default Routes;
+export default RoutesEmployee;
 
 // export default function Routes() {
     

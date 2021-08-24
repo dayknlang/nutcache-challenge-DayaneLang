@@ -6,6 +6,7 @@ import DeleteEmployee from '../components/delete-employee/delete-employee';
 import api from '../service/api-employee';
 import toast from 'react-hot-toast';
 
+
 const Home = () => {
 
     const [ employees, setEmployees ] = useState([]);
@@ -135,6 +136,7 @@ const Home = () => {
             />
             <div className="container">
                 <div className="mainContent">
+                    
                     <h1>Nutcache Challenge Brasil</h1>
                     <h3>Seja bem vindo ao gerenciador de pessoas!</h3>
                     <div className="buttonEmployee">

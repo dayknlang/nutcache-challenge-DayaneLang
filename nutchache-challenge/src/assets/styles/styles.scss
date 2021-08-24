@@ -2,21 +2,24 @@
 @import "./buttons.scss";
 @import "./forms.scss";
 
-@import "../../pages/home/style.scss";
+@import "../../pages/home.scss";
 @import "../../components/modal/modal.scss";
 @import "../../components/employee/employee.scss";
 @import "../../components/register-employee/register-employee.scss";
 @import "../../components/edit-employee/edit-employee.scss";
 @import "../../components/delete-employee/delete-employee.scss";
 
+
 body {
-    background-color:#E9C2A6 ;
+    background-color: $color-lightpink;
+    background-image: url("../img/background.jpg") no-repeat center; 
 }
+
 
 p,
 h1,
 h3 {
-	color: $color-white;
+	color: $color-darkblue;
 }
 
 p {

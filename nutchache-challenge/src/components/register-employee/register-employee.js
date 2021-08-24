@@ -28,7 +28,9 @@ const RegisterEmployee = ({ isOpen, setIsOpen, registerEmployee }) => {
                 <div className="register-label">
                     <label>Nome *</label>
                     <input
-                        type="text" name="name" required onChange={e => setName(e.target.value)}
+                        type="text" 
+                        name="name" 
+                        required onChange={e => setName(e.target.value)}
                     />
                 </div>
 
@@ -36,7 +38,9 @@ const RegisterEmployee = ({ isOpen, setIsOpen, registerEmployee }) => {
                     <div className="register-label">
                         <label>Data de Nascimento *</label>
                         <input
-                            type="date" name="birthdate" required onChange={e => setBirthdate(e.target.value)}
+                            type="date" 
+                            name="birthdate" 
+                            required onChange={e => setBirthdate(e.target.value)}
                         />
                     </div>
 
@@ -55,7 +59,9 @@ const RegisterEmployee = ({ isOpen, setIsOpen, registerEmployee }) => {
                     <div className="register-label">
                         <label>Email *</label>
                         <input 
-                            type="email" name="email" required onChange={e => setEmail(e.target.value)}
+                            type="email" 
+                            name="email" 
+                            required onChange={e => setEmail(e.target.value)}
                         />
                     </div>
 
