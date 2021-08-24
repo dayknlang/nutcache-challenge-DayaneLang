@@ -1,0 +1,25 @@
+@import "../assets/styles/settings.colors.scss";
+
+.container{
+    padding: 4rem 0;
+    .mainContent{
+        text-align: center;
+		color: rgb(110, 30, 30);
+        .buttonEmployee{
+            padding: 3rem 0;
+        }
+    }
+    .employeeSection{
+        padding-top: 2rem;
+        .employeesList{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .noFound{
+            padding: 6rem 0;
+            text-align: center;
+        }
+    }
+}

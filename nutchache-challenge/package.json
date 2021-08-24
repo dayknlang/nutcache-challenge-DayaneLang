@@ -6,9 +6,19 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "babel-preset-react": "^7.14.5",
+    "history": "^5.0.1",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.1.0",
+    "react-modal": "^3.14.3",
+    "react-render": "^4.0.0",
+    "react-router-dom": "^6.0.0-beta.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
+    "surge": "^0.23.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -27,6 +37,7 @@
     "production": [
       ">0.2%",
       "not dead",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
